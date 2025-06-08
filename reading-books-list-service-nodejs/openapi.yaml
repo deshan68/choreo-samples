@@ -6,7 +6,7 @@ info:
 servers:
   - url: http://localhost:8080/
 paths:
-  /reading-list/books:
+  /books:
     post:
       description: ""
       responses:
@@ -31,7 +31,7 @@ paths:
       responses:
         "200":
           description: OK
-  /reading-list/books/{uuid}:
+  /books/{uuid}:
     put:
       description: ""
       parameters:
